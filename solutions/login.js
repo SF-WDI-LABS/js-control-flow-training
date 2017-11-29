@@ -6,6 +6,13 @@ var passwordInput;
 
 var loggedIn = false;
 
+
+
+
+
+
+
+
 while (!loggedIn){
 	passwordInput = prompt("Enter password for user " + userLogin.userName + ".")
 	if (passwordInput === userLogin.password){
@@ -15,3 +22,4 @@ while (!loggedIn){
 		console.log("Passwords do not match. Try Again!");
 	}
 }
+
